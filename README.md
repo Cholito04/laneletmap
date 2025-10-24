@@ -1,9 +1,9 @@
-how to set up visulization using ros /n
-1 run:/n
-ros run lanelet2_io convert_osm \ /n
-  ~/maps/laneletmapfinal.osm \ /n
-  ~/maps/laneletmapfinal.osm.bin /n
-2: /n
+how to set up visulization using ros \
+1 run: \
+ros run lanelet2_io convert_osm \
+  ~/maps/laneletmapfinal.osm \
+  ~/maps/laneletmapfinal.osm.bin \
+2: \
   add map to ~/ros_ws/src/shuttle_navigation/maps/laneletmapfinal.osm.bin /n
 3: /n
   change username in launch final to username of system /n 
